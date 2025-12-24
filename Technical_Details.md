@@ -513,7 +513,7 @@ Create a `.env.local` file with these variables:
 
 ```env
 # Google Maps (CONFIGURED ✅)
-NEXT_PUBLIC_GOOGLE_MAPS_API_KEY=AIzaSyCxYGLtxqEQuQxxx9bELrXac4nIXOzPHSI
+NEXT_PUBLIC_GOOGLE_MAPS_API_KEY=your_google_maps_api_key_here
 
 # Email Service (Resend) - Get key from https://resend.com
 RESEND_API_KEY=re_xxxxxxxxxxxxx
