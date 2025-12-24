@@ -28,6 +28,7 @@ export default function Header({ locale, dictionary }: HeaderProps) {
   const [isScrolled, setIsScrolled] = useState(false);
   const [isMobileMenuOpen, setIsMobileMenuOpen] = useState(false);
   const [isLangOpen, setIsLangOpen] = useState(false);
+  const [isMobileLangOpen, setIsMobileLangOpen] = useState(false);
   const pathname = usePathname();
 
   useEffect(() => {
@@ -141,14 +142,56 @@ export default function Header({ locale, dictionary }: HeaderProps) {
               </Link>
             </div>
 
-            {/* Mobile Menu Button */}
-            <button
-              onClick={() => setIsMobileMenuOpen(true)}
-              className="lg:hidden relative z-10 p-2 text-white"
-              aria-label="Open menu"
-            >
-              <Menu className="w-6 h-6" />
-            </button>
+            {/* Mobile Language Switcher & Menu Button */}
+            <div className="lg:hidden flex items-center gap-2">
+              {/* Mobile Language Dropdown */}
+              <div className="relative">
+                <button
+                  onClick={() => setIsMobileLangOpen(!isMobileLangOpen)}
+                  className="flex items-center gap-1.5 px-2 py-1.5 rounded-lg border border-[var(--border-color)] hover:border-[var(--primary)] transition-colors"
+                  aria-label="Change language"
+                >
+                  <FlagIcon locale={locale} className="w-5 h-3.5" />
+                  <ChevronDown className={`w-3.5 h-3.5 transition-transform ${isMobileLangOpen ? 'rotate-180' : ''}`} />
+                </button>
+                
+                <AnimatePresence>
+                  {isMobileLangOpen && (
+                    <motion.div
+                      initial={{ opacity: 0, y: 10 }}
+                      animate={{ opacity: 1, y: 0 }}
+                      exit={{ opacity: 0, y: 10 }}
+                      className="absolute top-full right-0 mt-2 bg-[var(--bg-card)] border border-[var(--border-color)] rounded-lg overflow-hidden shadow-lg z-50"
+                    >
+                      {locales.map((loc) => (
+                        <button
+                          key={loc}
+                          onClick={() => {
+                            switchLocale(loc);
+                            setIsMobileLangOpen(false);
+                          }}
+                          className={`flex items-center gap-3 w-full px-4 py-3 hover:bg-[var(--bg-card-hover)] transition-colors ${
+                            loc === locale ? 'text-[var(--primary)]' : 'text-[var(--text-secondary)]'
+                          }`}
+                        >
+                          <FlagIcon locale={loc} className="w-5 h-3.5" />
+                          <span className="font-medium text-sm">{localeNames[loc]}</span>
+                        </button>
+                      ))}
+                    </motion.div>
+                  )}
+                </AnimatePresence>
+              </div>
+              
+              {/* Menu Button */}
+              <button
+                onClick={() => setIsMobileMenuOpen(true)}
+                className="relative z-10 p-2 text-white"
+                aria-label="Open menu"
+              >
+                <Menu className="w-6 h-6" />
+              </button>
+            </div>
           </nav>
         </div>
       </header>
@@ -201,30 +244,8 @@ export default function Header({ locale, dictionary }: HeaderProps) {
           ))}
         </nav>
 
-        {/* Mobile Language Switcher */}
-        <div className="mt-8 pt-8 border-t border-[var(--border-color)]">
-          <p className="text-sm text-[var(--text-muted)] mb-4 uppercase tracking-wider">
-            Language
-          </p>
-          <div className="flex gap-2">
-            {locales.map((loc) => (
-              <button
-                key={loc}
-                onClick={() => switchLocale(loc)}
-                className={`flex-1 flex items-center justify-center gap-2 py-3 rounded-lg border transition-colors ${
-                  loc === locale
-                    ? 'border-[var(--primary)] bg-[var(--primary)] text-white'
-                    : 'border-[var(--border-color)] text-[var(--text-secondary)] hover:border-[var(--primary)]'
-                }`}
-              >
-                <FlagIcon locale={loc} className="w-6 h-4" />
-              </button>
-            ))}
-          </div>
-        </div>
-
         {/* Mobile CTA */}
-        <div className="mt-8">
+        <div className="mt-8 pt-8 border-t border-[var(--border-color)]">
           <Link
             href={`/${locale}/contact`}
             onClick={() => setIsMobileMenuOpen(false)}

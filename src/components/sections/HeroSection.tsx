@@ -37,7 +37,7 @@ export default function HeroSection({ locale, dictionary }: HeroSectionProps) {
   }, []);
 
   return (
-    <section className="relative min-h-screen flex items-center overflow-hidden">
+    <section className="relative min-h-screen flex items-center overflow-hidden py-4">
       {/* Background Images with Crossfade */}
       <div className="absolute inset-0">
         {heroImages.map((img, index) => (
@@ -68,7 +68,7 @@ export default function HeroSection({ locale, dictionary }: HeroSectionProps) {
       </div>
 
       {/* Content */}
-      <div className="container-custom relative z-10 pt-20">
+      <div className="container-custom relative z-10 pt-28 sm:pt-32 md:pt-20 pb-24 sm:pb-16">
         <div className="max-w-3xl">
           <motion.div
             initial={{ opacity: 0, y: 30 }}
@@ -123,7 +123,7 @@ export default function HeroSection({ locale, dictionary }: HeroSectionProps) {
             initial={{ opacity: 0, y: 30 }}
             animate={{ opacity: 1, y: 0 }}
             transition={{ duration: 0.6, delay: 0.4 }}
-            className="grid grid-cols-2 md:grid-cols-4 gap-6 mt-16 pt-8 border-t border-[var(--border-color)]"
+            className="grid grid-cols-2 md:grid-cols-4 gap-4 sm:gap-6 mt-10 sm:mt-16 pt-6 sm:pt-8 border-t border-[var(--border-color)]"
           >
             {stats.map((stat, index) => (
               <div key={index} className="flex items-center gap-3">
@@ -141,7 +141,7 @@ export default function HeroSection({ locale, dictionary }: HeroSectionProps) {
       </div>
 
       {/* Image Indicators */}
-      <div className="absolute bottom-32 left-1/2 -translate-x-1/2 flex gap-2 z-10">
+      <div className="absolute bottom-6 sm:bottom-8 left-1/2 -translate-x-1/2 flex gap-2 z-10">
         {heroImages.map((_, index) => (
           <button
             key={index}

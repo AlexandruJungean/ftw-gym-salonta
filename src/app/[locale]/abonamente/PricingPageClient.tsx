@@ -114,8 +114,8 @@ export default function PricingPageClient({ locale, dictionary, plans }: Pricing
             transition={{ duration: 0.5, delay: 0.6 }}
             className="mt-16 text-center"
           >
-            <div className="inline-flex items-center gap-4 px-8 py-4 rounded-2xl bg-[var(--bg-card)] border border-[var(--border-color)]">
-              <span className="text-[var(--text-secondary)]">
+            <div className="inline-flex flex-col sm:flex-row items-center gap-4 px-6 sm:px-8 py-6 sm:py-4 rounded-2xl bg-[var(--bg-card)] border border-[var(--border-color)]">
+              <span className="text-[var(--text-secondary)] text-center sm:text-left">
                 {locale === 'ro' 
                   ? 'Ai întrebări? Contactează-ne pentru mai multe detalii!'
                   : locale === 'hu'
@@ -123,7 +123,7 @@ export default function PricingPageClient({ locale, dictionary, plans }: Pricing
                   : 'Have questions? Contact us for more details!'
                 }
               </span>
-              <Link href={`/${locale}/contact`} className="btn-primary py-2 px-4">
+              <Link href={`/${locale}/contact`} className="btn-primary py-2 px-6 whitespace-nowrap">
                 {dictionary.hero.cta}
               </Link>
             </div>
