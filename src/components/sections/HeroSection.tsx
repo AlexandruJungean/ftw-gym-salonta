@@ -76,7 +76,7 @@ export default function HeroSection({ locale, dictionary }: HeroSectionProps) {
             transition={{ duration: 0.6 }}
           >
             {/* Badge */}
-            <div className="inline-flex items-center gap-2 px-4 py-2 rounded-full bg-[var(--primary)]/20 border border-[var(--primary)]/30 mb-6">
+            <div className="inline-flex items-center gap-2 px-3 sm:px-4 py-1.5 sm:py-2 rounded-full bg-[var(--primary)]/20 border border-[var(--primary)]/30 mb-4 sm:mb-6">
               <span className="w-2 h-2 rounded-full bg-[var(--primary)] animate-pulse" />
               <span className="text-sm font-medium text-[var(--primary)]">
                 FitWorld Gym Salonta
@@ -88,7 +88,7 @@ export default function HeroSection({ locale, dictionary }: HeroSectionProps) {
             initial={{ opacity: 0, y: 30 }}
             animate={{ opacity: 1, y: 0 }}
             transition={{ duration: 0.6, delay: 0.1 }}
-            className="heading-xl mb-6"
+            className="heading-xl mb-4 sm:mb-6"
           >
             <span className="text-white">{dictionary.hero.title1}</span>
             <br />
@@ -99,7 +99,7 @@ export default function HeroSection({ locale, dictionary }: HeroSectionProps) {
             initial={{ opacity: 0, y: 30 }}
             animate={{ opacity: 1, y: 0 }}
             transition={{ duration: 0.6, delay: 0.2 }}
-            className="text-xl text-[var(--text-secondary)] mb-8 max-w-xl leading-relaxed"
+            className="text-base sm:text-xl text-[var(--text-secondary)] mb-6 sm:mb-8 max-w-xl leading-relaxed"
           >
             {dictionary.hero.subtitle}
           </motion.p>
@@ -123,16 +123,16 @@ export default function HeroSection({ locale, dictionary }: HeroSectionProps) {
             initial={{ opacity: 0, y: 30 }}
             animate={{ opacity: 1, y: 0 }}
             transition={{ duration: 0.6, delay: 0.4 }}
-            className="grid grid-cols-2 md:grid-cols-4 gap-4 sm:gap-6 mt-10 sm:mt-16 pt-6 sm:pt-8 border-t border-[var(--border-color)]"
+            className="grid grid-cols-2 md:grid-cols-4 gap-3 sm:gap-6 mt-8 sm:mt-16 pt-5 sm:pt-8 border-t border-[var(--border-color)]"
           >
             {stats.map((stat, index) => (
-              <div key={index} className="flex items-center gap-3">
-                <div className="w-12 h-12 rounded-lg bg-[var(--primary)]/20 flex items-center justify-center">
-                  <stat.icon className="w-6 h-6 text-[var(--primary)]" />
+              <div key={index} className="flex items-center gap-2 sm:gap-3">
+                <div className="w-9 h-9 sm:w-12 sm:h-12 rounded-lg bg-[var(--primary)]/20 flex items-center justify-center flex-shrink-0">
+                  <stat.icon className="w-4 h-4 sm:w-6 sm:h-6 text-[var(--primary)]" />
                 </div>
                 <div>
-                  <div className="text-2xl font-bold text-white">{stat.value}</div>
-                  <div className="text-sm text-[var(--text-muted)]">{stat.label[locale]}</div>
+                  <div className="text-lg sm:text-2xl font-bold text-white">{stat.value}</div>
+                  <div className="text-xs sm:text-sm text-[var(--text-muted)]">{stat.label[locale]}</div>
                 </div>
               </div>
             ))}
