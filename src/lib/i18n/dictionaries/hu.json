@@ -1,0 +1,109 @@
+{
+  "metadata": {
+    "title": "FitWorld Gym Salonta - Fitness Terem",
+    "description": "A FitWorld Gym Salontán elkötelezettek vagyunk, hogy teljes körű fitness élményt nyújtsunk barátságos és motiváló környezetben."
+  },
+  "nav": {
+    "home": "Kezdőlap",
+    "about": "Rólunk",
+    "team": "Csapat",
+    "media": "Média",
+    "pricing": "Bérletek",
+    "contact": "Kapcsolat"
+  },
+  "hero": {
+    "title1": "Szeretnél egészségesebb,",
+    "title2": "erősebb és fittebb lenni?",
+    "subtitle": "A FitWorld Gym Salontán segítünk elérni fitness céljaidat barátságos és motiváló környezetben.",
+    "cta": "Kapcsolatfelvétel",
+    "cta2": "Bérletek megtekintése"
+  },
+  "sections": {
+    "whatWeOffer": "Mit kínálunk?",
+    "whatWeOfferText": "A FitWorld Gym Salontán elkötelezettek vagyunk, hogy teljes körű fitness élményt nyújtsunk barátságos és motiváló környezetben. Akár kezdő vagy, akár tapasztalt sportoló, minden megtalálsz nálunk az egészség és teljesítmény céljaid eléréséhez. Így jött létre a FitWorld Gym. Azzal a vággyal, hogy minél több követőt vonzzunk az EGÉSZSÉGES ÉS SZÉP ÉLETMÓD áramlatába. Várunk Salontán!",
+    "whoWeAre": "Kik vagyunk?",
+    "ourTeam": "Csapatunk",
+    "meetTrainers": "Ismerd meg edzőinket",
+    "viewAll": "Teljes csapat",
+    "ourPricing": "Bérleteink",
+    "pricingSubtitle": "Itt találod a FitWorld Gym bérleteit, amelyek mindenkinek és minden életstílusnak megfelelnek.",
+    "downloadApp": "Töltsd le az alkalmazást",
+    "appDescription": "Használd a GMA alkalmazást a gyors bejelentkezéshez, bérlet megtekintéséhez és órákra való jelentkezéshez.",
+    "reviews": "Vélemények",
+    "reviewsSubtitle": "Mit mondanak tagjaink",
+    "gallery": "Fotógaléria",
+    "gallerySubtitle": "Fedezd fel termünket"
+  },
+  "pricing": {
+    "perMonth": "/ hónap",
+    "perEntry": "/ belépés",
+    "features": {
+      "unlimitedFitness": "Korlátlan Fitness zóna hozzáférés",
+      "groupClasses": "Csoportos órák"
+    },
+    "popular": "Legnépszerűbb",
+    "contactUs": "Kapcsolatfelvétel"
+  },
+  "contact": {
+    "title": "Kapcsolat",
+    "subtitle": "Kérjük, hagyj üzenetet. A lehető legrövidebb időn belül felvesszük veled a kapcsolatot.",
+    "name": "Név",
+    "email": "Email cím",
+    "phone": "Telefon",
+    "message": "Üzenet",
+    "send": "Üzenet küldése",
+    "sending": "Küldés...",
+    "success": "Az üzenet sikeresen elküldve!",
+    "error": "Hiba történt. Kérjük, próbáld újra.",
+    "address": "Cím",
+    "schedule": "Nyitvatartás",
+    "findUs": "Hol találsz minket"
+  },
+  "schedule": {
+    "monday": "Hétfő",
+    "tuesday": "Kedd",
+    "wednesday": "Szerda",
+    "thursday": "Csütörtök",
+    "friday": "Péntek",
+    "saturday": "Szombat",
+    "sunday": "Vasárnap",
+    "closed": "Zárva"
+  },
+  "team": {
+    "personalTrainer": "Személyi Edző",
+    "specializations": "Specializációk",
+    "viewProfile": "Profil megtekintése",
+    "backToTeam": "Vissza a csapathoz",
+    "followOn": "Követés"
+  },
+  "footer": {
+    "rights": "Minden jog fenntartva",
+    "terms": "Felhasználási feltételek",
+    "privacy": "Adatvédelmi irányelvek",
+    "quickLinks": "Gyors linkek",
+    "followUs": "Kövess minket"
+  },
+  "app": {
+    "title": "FitWorld Alkalmazás",
+    "description": "Töltsd le a GMA alkalmazást, hogy gyorsan hozzáférj minden funkcióhoz:",
+    "features": {
+      "qr": "QR kód a gyors bejelentkezéshez",
+      "subscription": "Bérlet státusz megtekintése",
+      "classes": "Fitness órákra jelentkezés",
+      "payments": "Fizetési előzmények",
+      "measurements": "Testmérések",
+      "notifications": "Fontos értesítések"
+    },
+    "downloadIos": "Letöltés iOS-re",
+    "downloadAndroid": "Letöltés Androidra"
+  },
+  "about": {
+    "title": "Rólunk",
+    "subtitle": "A FitWorld Gym története",
+    "mission": "Küldetésünk",
+    "missionText": "Célunk, hogy minél több követőt vonzzunk az EGÉSZSÉGES ÉS SZÉP ÉLETMÓD áramlatába.",
+    "values": "Értékeink",
+    "valuesText": "Fegyelem, következetesség és a sport iránti szenvedély."
+  }
+}
+

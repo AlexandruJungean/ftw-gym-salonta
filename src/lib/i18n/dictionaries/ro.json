@@ -1,0 +1,109 @@
+{
+  "metadata": {
+    "title": "FitWorld Gym Salonta - Sală de Fitness",
+    "description": "La FitWorld Gym Salonta, ne angajăm să vă oferim o experiență completă de fitness, într-un mediu prietenos și motivant."
+  },
+  "nav": {
+    "home": "Acasă",
+    "about": "Despre noi",
+    "team": "Echipa",
+    "media": "Media",
+    "pricing": "Abonamente",
+    "contact": "Contact"
+  },
+  "hero": {
+    "title1": "Vrei să devii mai sănătos,",
+    "title2": "mai puternic și mai pregătit?",
+    "subtitle": "La FitWorld Gym Salonta, te ajutăm să îți atingi obiectivele de fitness într-un mediu prietenos și motivant.",
+    "cta": "Contactează-ne",
+    "cta2": "Vezi abonamentele"
+  },
+  "sections": {
+    "whatWeOffer": "Ce vă oferim?",
+    "whatWeOfferText": "La FitWorld Gym Salonta, ne angajăm să vă oferim o experiență completă de fitness, într-un mediu prietenos și motivant. Fie că sunteți la început de drum sau un sportiv experimentat, avem tot ce vă trebuie pentru a vă atinge obiectivele de sănătate și performanță. Așa a apărut Fitworld Gym. Din dorința de a atrage cât mai mulți adepți în curentul STIL DE VIAȚĂ SĂNĂTOS ȘI FRUMOS. Vă așteptăm în Salonta!",
+    "whoWeAre": "Cine suntem?",
+    "ourTeam": "Echipa noastră",
+    "meetTrainers": "Cunoaște-ne antrenorii",
+    "viewAll": "Vezi toată echipa",
+    "ourPricing": "Abonamentele noastre",
+    "pricingSubtitle": "Aici găsiți abonamentele FitWorld Gym, perfecte pentru oricine și pentru orice stil de viață.",
+    "downloadApp": "Descarcă aplicația",
+    "appDescription": "Folosește aplicația GMA pentru check-in rapid, vizualizarea abonamentului și programarea la clase.",
+    "reviews": "Recenzii",
+    "reviewsSubtitle": "Ce spun membrii noștri",
+    "gallery": "Galerie foto",
+    "gallerySubtitle": "Descoperă sala noastră"
+  },
+  "pricing": {
+    "perMonth": "/ lună",
+    "perEntry": "/ intrare",
+    "features": {
+      "unlimitedFitness": "Acces nelimitat zona Fitness",
+      "groupClasses": "Clase de Grup"
+    },
+    "popular": "Cel mai popular",
+    "contactUs": "Contactează-ne"
+  },
+  "contact": {
+    "title": "Contact",
+    "subtitle": "Vă rugăm să ne lăsați un mesaj. Vă vom contacta în cel mai scurt timp.",
+    "name": "Nume",
+    "email": "Adresă Email",
+    "phone": "Telefon",
+    "message": "Mesaj",
+    "send": "Trimite mesajul",
+    "sending": "Se trimite...",
+    "success": "Mesajul a fost trimis cu succes!",
+    "error": "A apărut o eroare. Încercați din nou.",
+    "address": "Adresă",
+    "schedule": "Program",
+    "findUs": "Unde ne găsești"
+  },
+  "schedule": {
+    "monday": "Luni",
+    "tuesday": "Marți",
+    "wednesday": "Miercuri",
+    "thursday": "Joi",
+    "friday": "Vineri",
+    "saturday": "Sâmbătă",
+    "sunday": "Duminică",
+    "closed": "Închis"
+  },
+  "team": {
+    "personalTrainer": "Personal Trainer",
+    "specializations": "Specializări",
+    "viewProfile": "Vezi profilul",
+    "backToTeam": "Înapoi la echipă",
+    "followOn": "Urmărește pe"
+  },
+  "footer": {
+    "rights": "Toate drepturile rezervate",
+    "terms": "Termeni și condiții",
+    "privacy": "Politica de confidențialitate",
+    "quickLinks": "Link-uri rapide",
+    "followUs": "Urmărește-ne"
+  },
+  "app": {
+    "title": "Aplicația FitWorld",
+    "description": "Descarcă aplicația GMA pentru a avea acces rapid la toate funcționalitățile:",
+    "features": {
+      "qr": "Cod QR pentru check-in rapid",
+      "subscription": "Vizualizare status abonament",
+      "classes": "Programare la clase de fitness",
+      "payments": "Istoric plăți",
+      "measurements": "Măsurători corporale",
+      "notifications": "Notificări importante"
+    },
+    "downloadIos": "Descarcă pentru iOS",
+    "downloadAndroid": "Descarcă pentru Android"
+  },
+  "about": {
+    "title": "Despre noi",
+    "subtitle": "Povestea FitWorld Gym",
+    "mission": "Misiunea noastră",
+    "missionText": "Ne-am propus să atragem cât mai mulți adepți în curentul STIL DE VIAȚĂ SĂNĂTOS ȘI FRUMOS.",
+    "values": "Valorile noastre",
+    "valuesText": "Disciplină, consecvență și pasiune pentru sport."
+  }
+}
+

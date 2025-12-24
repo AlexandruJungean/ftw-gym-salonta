@@ -1,0 +1,109 @@
+{
+  "metadata": {
+    "title": "FitWorld Gym Salonta - Fitness Center",
+    "description": "At FitWorld Gym Salonta, we are committed to providing you with a complete fitness experience in a friendly and motivating environment."
+  },
+  "nav": {
+    "home": "Home",
+    "about": "About Us",
+    "team": "Team",
+    "media": "Media",
+    "pricing": "Pricing",
+    "contact": "Contact"
+  },
+  "hero": {
+    "title1": "Want to become healthier,",
+    "title2": "stronger and more prepared?",
+    "subtitle": "At FitWorld Gym Salonta, we help you achieve your fitness goals in a friendly and motivating environment.",
+    "cta": "Contact Us",
+    "cta2": "View Pricing"
+  },
+  "sections": {
+    "whatWeOffer": "What We Offer?",
+    "whatWeOfferText": "At FitWorld Gym Salonta, we are committed to providing you with a complete fitness experience in a friendly and motivating environment. Whether you are just starting out or an experienced athlete, we have everything you need to achieve your health and performance goals. This is how FitWorld Gym came to be. With the desire to attract as many followers to the HEALTHY AND BEAUTIFUL LIFESTYLE movement. We welcome you in Salonta!",
+    "whoWeAre": "Who Are We?",
+    "ourTeam": "Our Team",
+    "meetTrainers": "Meet Our Trainers",
+    "viewAll": "View Full Team",
+    "ourPricing": "Our Pricing",
+    "pricingSubtitle": "Here you can find FitWorld Gym subscriptions, perfect for anyone and any lifestyle.",
+    "downloadApp": "Download the App",
+    "appDescription": "Use the GMA app for quick check-in, subscription status, and class booking.",
+    "reviews": "Reviews",
+    "reviewsSubtitle": "What our members say",
+    "gallery": "Photo Gallery",
+    "gallerySubtitle": "Discover our gym"
+  },
+  "pricing": {
+    "perMonth": "/ month",
+    "perEntry": "/ entry",
+    "features": {
+      "unlimitedFitness": "Unlimited Fitness Zone Access",
+      "groupClasses": "Group Classes"
+    },
+    "popular": "Most Popular",
+    "contactUs": "Contact Us"
+  },
+  "contact": {
+    "title": "Contact",
+    "subtitle": "Please leave us a message. We will contact you as soon as possible.",
+    "name": "Name",
+    "email": "Email Address",
+    "phone": "Phone",
+    "message": "Message",
+    "send": "Send Message",
+    "sending": "Sending...",
+    "success": "Message sent successfully!",
+    "error": "An error occurred. Please try again.",
+    "address": "Address",
+    "schedule": "Schedule",
+    "findUs": "Where to Find Us"
+  },
+  "schedule": {
+    "monday": "Monday",
+    "tuesday": "Tuesday",
+    "wednesday": "Wednesday",
+    "thursday": "Thursday",
+    "friday": "Friday",
+    "saturday": "Saturday",
+    "sunday": "Sunday",
+    "closed": "Closed"
+  },
+  "team": {
+    "personalTrainer": "Personal Trainer",
+    "specializations": "Specializations",
+    "viewProfile": "View Profile",
+    "backToTeam": "Back to Team",
+    "followOn": "Follow on"
+  },
+  "footer": {
+    "rights": "All rights reserved",
+    "terms": "Terms and Conditions",
+    "privacy": "Privacy Policy",
+    "quickLinks": "Quick Links",
+    "followUs": "Follow Us"
+  },
+  "app": {
+    "title": "FitWorld App",
+    "description": "Download the GMA app to quickly access all features:",
+    "features": {
+      "qr": "QR code for quick check-in",
+      "subscription": "View subscription status",
+      "classes": "Book fitness classes",
+      "payments": "Payment history",
+      "measurements": "Body measurements",
+      "notifications": "Important notifications"
+    },
+    "downloadIos": "Download for iOS",
+    "downloadAndroid": "Download for Android"
+  },
+  "about": {
+    "title": "About Us",
+    "subtitle": "The FitWorld Gym Story",
+    "mission": "Our Mission",
+    "missionText": "We aim to attract as many followers to the HEALTHY AND BEAUTIFUL LIFESTYLE movement.",
+    "values": "Our Values",
+    "valuesText": "Discipline, consistency and passion for sports."
+  }
+}
+

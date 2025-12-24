@@ -1,0 +1,22 @@
+{
+  "name": "FitWorld Gym Salonta",
+  "short_name": "FitWorld Gym",
+  "description": "Sală de fitness modernă în Salonta cu antrenori profesioniști",
+  "start_url": "/",
+  "display": "browser",
+  "background_color": "#1a1a1a",
+  "theme_color": "#ff6b00",
+  "icons": [
+    {
+      "src": "/android-chrome-192x192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "/android-chrome-512x512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    }
+  ]
+}
+
