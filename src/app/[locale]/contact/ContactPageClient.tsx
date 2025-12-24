@@ -240,7 +240,7 @@ export default function ContactPageClient({ locale, dictionary }: ContactPageCli
               {/* Map */}
               <div className="aspect-video rounded-2xl overflow-hidden border border-[var(--border-color)]">
                 <iframe
-                  src={`https://www.google.com/maps/embed/v1/place?key=${process.env.NEXT_PUBLIC_GOOGLE_MAPS_API_KEY}&q=FitWorld+Gym+Salonta&zoom=15`}
+                  src={`https://www.google.com/maps/embed/v1/place?key=${process.env.NEXT_PUBLIC_GOOGLE_MAPS_API_KEY}&q=FITWORLD+GYM,Strada+Gyorgy+Kulin+37,Salonta,Romania&zoom=16`}
                   width="100%"
                   height="100%"
                   style={{ border: 0 }}

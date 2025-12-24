@@ -17,7 +17,7 @@ export function LocalBusinessSchema() {
     email: CONTACT_INFO.email,
     address: {
       '@type': 'PostalAddress',
-      streetAddress: 'Str. Kulin Gyorgy, nr. 37',
+      streetAddress: 'Strada Gyorgy Kulin 37',
       addressLocality: 'Salonta',
       addressRegion: 'Bihor',
       postalCode: '415500',
@@ -25,8 +25,8 @@ export function LocalBusinessSchema() {
     },
     geo: {
       '@type': 'GeoCoordinates',
-      latitude: 46.7989,
-      longitude: 21.6536,
+      latitude: 46.7972974,
+      longitude: 21.663244,
     },
     openingHoursSpecification: [
       {

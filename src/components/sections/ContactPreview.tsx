@@ -34,14 +34,14 @@ export default function ContactPreview({ locale, dictionary }: ContactPreviewPro
           >
             <div className="aspect-video lg:aspect-[4/3] rounded-2xl overflow-hidden border border-[var(--border-color)]">
               <iframe
-                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2731.5!2d21.6536!3d46.8019!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x0!2zNDbCsDQ4JzA2LjgiTiAyMcKwMzknMTMuMCJF!5e0!3m2!1sen!2sro!4v1"
+                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1357!2d21.661287!3d46.798011!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x47466de431c22041%3A0x385f6776a6780b47!2sFITWORLD%20GYM!5e0!3m2!1sen!2sro!4v1"
                 width="100%"
                 height="100%"
                 style={{ border: 0 }}
                 allowFullScreen
                 loading="lazy"
                 referrerPolicy="no-referrer-when-downgrade"
-                className="grayscale hover:grayscale-0 transition-all duration-500"
+                className="transition-all duration-500"
               />
             </div>
             

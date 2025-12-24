@@ -6,14 +6,14 @@ export const SOCIAL_LINKS = {
 } as const;
 
 export const CONTACT_INFO = {
-  address: 'Salonta, Str. Kulin Gyorgy, nr. 37',
+  address: 'Strada Gyorgy Kulin 37, Salonta 415500',
   phone: '+40 755 082 832',
   email: 'contact@fitworldgym.ro',
   coordinates: {
-    lat: 46.8019,
-    lng: 21.6536,
+    lat: 46.7972974,
+    lng: 21.663244,
   },
-  googleMapsUrl: 'https://maps.google.com/?q=FitWorld+Gym+Salonta',
+  googleMapsUrl: 'https://www.google.com/maps/place/FITWORLD+GYM/@46.7972974,21.663244,17z',
 } as const;
 
 export const WORKING_HOURS = {
